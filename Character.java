@@ -25,7 +25,7 @@ public abstract class Character {
 
     // ~~~~~~~~~~~~~~ ACCESSORS ~~~~~~~~~~~~~~~~~
     
-    public int getName() {
+    public String getName() {
 	return name;
     }
     
