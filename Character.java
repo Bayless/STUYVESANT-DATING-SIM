@@ -10,13 +10,8 @@ public abstract class Character {
     protected String zodiac;
 
 
-    // ~~~~~~~~~~~ CONSTRUCTORS ~~~~~~~~~~~
+    // ~~~~~~~~~~~ CONSTRUCTOR ~~~~~~~~~~~
     
-    public Character() { // default settings
-	name = "Bayle";
-	zodiac = "scorpio";
-    }
-
     public Character(String n, String z) {
 	name = n;
 	zodiac = z;
