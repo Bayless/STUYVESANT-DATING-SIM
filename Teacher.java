@@ -35,4 +35,10 @@ public class Teacher extends Character {
 	return matchLevel;
     }
 
+    // ~~~~~~~~~~~~~~~~~ MUTATORS ~~~~~~~~~~~~~~~~~
+    
+    public void setMatchLevel(int x) {
+	matchLevel = x;
+    }
+
 } // end class Teacher
