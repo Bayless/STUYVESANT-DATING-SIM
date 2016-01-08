@@ -1,3 +1,3 @@
-  # TEAM BOOJUM'S DATING SIM
-final project
-name tbd
+  # TEAM BOOJUM'S DATING SIM <3 
+(final project) 
+(name tbd)
