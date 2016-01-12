@@ -2,30 +2,12 @@
   class Character - superclass for all characters!
   =============================================*/
 
-public abstract class Character {
+public interface Character {
+
     
-    // ~~~~~~~~~~~ INSTANCE VARIABLES ~~~~~~~~~~~
-
-    protected String name;
-    protected String zodiac;
-
-
-    // ~~~~~~~~~~~ CONSTRUCTOR ~~~~~~~~~~~
+    public String getName(String name, String surname);
     
-    public Character(String n, String z) {
-	name = n;
-	zodiac = z;
-    }
+    public String getZodiac();
 
-
-    // ~~~~~~~~~~~~~~ ACCESSORS ~~~~~~~~~~~~~~~~~
-    
-    public String getName() {
-	return name;
-    }
-    
-    public String getZodiac() {
-        return zodiac;
-    }
      
 } //end class Character
