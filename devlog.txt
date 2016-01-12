@@ -14,4 +14,5 @@ still needs work though and we need to figure out where we will implement everyt
 
 We worked more on the compatibility of Character, Teacher, and Student in class.
 We discussed additional variables that can be compared between Student and Teacher.
+In addition to that, we created classes for all our teachers.
 Mr. Brown is a Scorpio.
