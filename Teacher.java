@@ -6,12 +6,13 @@ public abstract class Teacher implements Character {
 
     // ~~~~~~~~~~~ INSTANCE VARIABLES ~~~~~~~~~~~
 
-    private String surname;
+    protected String surname;
     private int matchLevel;
     protected String[][] questionBank;
     protected String[] regQuestions;
     protected String name;
     protected String zodiac;
+    protected int questionPos;
     
 
 
@@ -25,8 +26,7 @@ public abstract class Teacher implements Character {
 	
     }
 
-    public Teacher(String n, String s, String z) {
-	this();
+    public Teacher(String n, String s, String z, int pos) {
 	surname = s;
 	matchLevel = 0;
 	questionBank = new String[][]
@@ -47,6 +47,7 @@ public abstract class Teacher implements Character {
 			  "what is your zodiac",
 			  "what is your favorite class",
 	};
+	questionPos = pos;
     }
 
 
@@ -62,11 +63,14 @@ public abstract class Teacher implements Character {
     public int getMatchLevel() {
 	return matchLevel;
     }
+    public String getZodiac(){
+	return zodiac;
+    }
 
     // ~~~~~~~~~~~~~~~~~ MUTATORS ~~~~~~~~~~~~~~~~~
     
     public void setMatchLevel(int x) {
 	matchLevel = x;
     }
-
+    public abstract String ask();
 } // end class Teacher
