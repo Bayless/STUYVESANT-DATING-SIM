@@ -7,14 +7,12 @@ public abstract class Teacher implements Character {
     // ~~~~~~~~~~~ INSTANCE VARIABLES ~~~~~~~~~~~
 
     protected String surname;
-    private int matchLevel;
     protected String[][] questionBank;
     protected String[] regQuestions;
     protected String name;
     protected String zodiac;
+    protected int matchLevel;
     protected int questionPos;
-    
-
 
     // ~~~~~~~~~~~ CONSTRUCTORS ~~~~~~~~~~~
 
@@ -27,20 +25,22 @@ public abstract class Teacher implements Character {
     }
 
     public Teacher(String n, String s, String z, int pos) {
+	name = n;
 	surname = s;
+	zodiac = z;
 	matchLevel = 0;
 	questionBank = new String[][]
 	    {{"yo?","i like history"},
-	     {"ms garber is bae", "my hair is on point"},
+	     {"oui oui baguette", "hablo francais"},
 	     {"im not no teacher", "I is a computer scientist"},
-	     {"hablo frances", "idk french :P"},
+	     {"dammit ronald", "luv u barbara"},
 	     {"physics is formulas", "now, a story!"}
 	};
 	/* position 0 are Hanna's questions
-	   1 is Mott
+	   1 is Ramirez
 	   2 is Brown
-	   3 is Ramirez
-	   4 is akh
+	   3 is Mott
+	   4 is Akh
 	*/
 	regQuestions = //questions for all
 	    new String[] {"how are you?",
@@ -49,7 +49,6 @@ public abstract class Teacher implements Character {
 	};
 	questionPos = pos;
     }
-
 
     // ~~~~~~~~~~~~~~ ACCESSORS ~~~~~~~~~~~~~~~~~
 
@@ -72,5 +71,7 @@ public abstract class Teacher implements Character {
     public void setMatchLevel(int x) {
 	matchLevel = x;
     }
+
     public abstract String ask();
+
 } // end class Teacher

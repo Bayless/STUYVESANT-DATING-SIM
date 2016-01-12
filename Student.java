@@ -5,10 +5,12 @@
 import java.io.*;
 import java.util.*;
 
-public class Student extends Character {
+public class Student implements Character {
 
     // ~~~~~~~~~~~ INSTANCE VARIABLES ~~~~~~~~~~~
 
+    private String name;
+    private String zodiac;
     private final String[] zodiacs = {"aries","taurus","gemini",
 				      "cancer","leo","virgo",
 				      "libra","scorpio","sagittarius",
@@ -69,5 +71,12 @@ public class Student extends Character {
 	return "";
     }
 
+    public String getName() {
+	return name;
+    }
+
+    public String getZodiac() {
+	return zodiac;
+    }
 
 } // end class Student

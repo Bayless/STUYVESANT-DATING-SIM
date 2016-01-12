@@ -9,3 +9,9 @@ RIP David Bowie.
 
 I worked on making Character an interface and making Character, Teacher and Hanna work in tandem
 still needs work though and we need to figure out where we will implement everything and how.
+
+2015-01-12 Kate and Bayle
+
+We worked more on the compatibility of Character, Teacher, and Student in class.
+We discussed additional variables that can be compared between Student and Teacher.
+Mr. Brown is a Scorpio.

@@ -27,7 +27,7 @@ public class DatingSim{
     public DatingSim() {
 	isr = new InputStreamReader( System.in );
 	in = new BufferedReader( isr );
-	System.out.println("\nWelcome! Intro message here!");
+	System.out.println("\nWelcome!");
 	System.out.println("\n*~~~~~~~~~~~~~WHO ARE YOU?~~~~~~~~~~~~~*\n");
 	you = new Student();
     }
