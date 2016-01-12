@@ -4,3 +4,8 @@ Today was the start of our project devlog.
 Bayle and I made and populated the readme.txt and devlog.txt files.
 Now, we are going to wait for Mr. Brown's seal of approval on our project idea.
 RIP David Bowie.
+
+2015-01-11 Bayle
+
+I worked on making Character an interface and making Character, Teacher and Hanna work in tandem
+still needs work though and we need to figure out where we will implement everything and how.
