@@ -12,7 +12,7 @@ SOME KIND OF INTRODUCTION/TITLE/WHATEVER HERE
 import java.io.*;
 import java.util.*;
 
-public class DatingSim{
+public class DatingSim {
 
     // ~~~~~~~~~~~ INSTANCE VARIABLES ~~~~~~~~~~~
 

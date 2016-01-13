@@ -1,5 +1,5 @@
 /*=============================================
-  class Character - superclass for all characters!
+  class Character - Interface for all characters!
   =============================================*/
 
 public interface Character {
