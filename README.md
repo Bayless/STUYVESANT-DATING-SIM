@@ -1,3 +1,1 @@
-TEAM BOOJUM'S DATING SIM <3 
-(final project) 
-(name tbd)
+THIS IS NOT OUR FINAL PROJECT
